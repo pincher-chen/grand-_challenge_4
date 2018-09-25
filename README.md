@@ -43,6 +43,6 @@ done
 Here, we chose glide to run molecule docking.
 - 1. Protein preparation. Check the format of 5YGX.pdb.
 - 2. Create gride file. It should be noted the docking box size, for one cocrytal ligand exited in 5YGX, but the size of this ligand is smaller than the docking ligands. Besides, the docking ligands are more complecated with many branched chains and aromatic rings. It will be better to use Sitemap tool to check the docking sites in the protein of 5YGX. Finally, we chose the docking site with (18.94, 40.55, -6.39) extended by box with 30 A. This box size contain two top 2 docking site (Calculated by Sitmap and Fpocket tool).
-- 3. Xp (extra precision) score function is used. 10 poses are considersied to save.
+- 3. Xp (extra precision) score function is used. 10 poses are considersied to save. Result files can be seen in glide folder.
 
 ## For CatS
