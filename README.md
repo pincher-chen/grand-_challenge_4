@@ -3,7 +3,7 @@
 This project is about a molecule docking excise. The detailed decriptions about this excise can be see in: https://drugdesigndata.org/about/grand-challenge-4.
 
 ## For BACE
-1.Get input file from official website
+- 1.Get input file from official website
 ```
 $ ls *csv *fasta
 BACE_FEset_compounds_D3R_GC4.csv  #SMILES strings of the molecules in the free energy set (34 molecules) for the calculation of relative or absolute binding affinities.
@@ -11,12 +11,12 @@ BACE_score_compounds_D3R_GC4.csv  #SMILES strings of the 154 compounds for affin
 BACE_pose_compounds_D3R_GC4.csv   #SMILES strings of the 20 ligands to be docked and the FASTA sequence of the target
 BACE_target_D3R_GC4.fasta         #the FASTA sequence of the target, BACE
 ```
-2.Get BACE structure from PDB website
+- 2.Get BACE structure from PDB website
 ```
 wget https://files.rcsb.org/download/5YGX.pdb
 ```
 
-3.Get ligand 3D structure based on SMILES strings
+- 3.Get ligand 3D structure based on SMILES strings
 Here, ligprep tool in Schrodinger suites is used to obtain sd format file. It should be noted that the smi file format. 
 ```
 $ ls *smi
