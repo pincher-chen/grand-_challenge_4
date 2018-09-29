@@ -1,0 +1,41 @@
+--------------------------------------------------------------------------------
+JobId          : ln1-0-5ba8ea3b
+Name           : BACE_2
+Program        : LigPrep
+MMshareExec    : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Host           : ln1
+Dir            : /WORK/nscc-gz_pinchen/project/grand_challenge/data/BACE_pose_compounds_D3R_GC4
+HostEntry      : localhost
+JobHost        : ln1
+JobDir         : /tmp/nscc-gz_pinchen/BACE_2
+JobMMshareExec : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /WORK/commercial_software/Schrodinger/2018-2-1/ligprep -ismi BACE_2.smi -osd BACE_2.sd -epik
+StartTime      : 2018-09-24-21:44:28
+--------------------------------------------------------------------------------
+LigPrep (version 46013). Copyright Schrodinger, LLC. All rights reserved.
+
+LigPrep command:
+$SCHRODINGER/ligprep -epik -ismi BACE_2.smi -osd BACE_2.sd
+
+Processing steps:
+$DO/smiconvert_in.py -orig_file_index 0 -orig_file BACE_2.smi -max_atom 200 BACE_2.smi
+$DO/htreat.py -t All-None -a all -s -l 200 <infile.mae> <outfile.mae>
+$DO/desalter.py <infile.mae> <outfile.mae>
+$DO/neutralizer.py -m 200 <infile.mae> <outfile.mae>
+$DO/epik.py -ph 7.0 -tn 8 -ma 200 -imae <infile.mae> -omae <outfile.mae>
+$DO/guard.py <infile.mae> <outfile.mae>
+$DO/stereoizer.py -label_specified_chiralities -n 32 <infile.mae> <outfile.mae>
+$DO/cgx.py -optimize -ffld 14 -epsilon 10.0 <infile.mae> <outfile.mae>
+$DO/filterstereo.py -max_stereo 32 <infile.mae> <outfile.mae>
+
+DO=$SCHRODINGER/run -FROM macromodel ../../lib/Linux-x86_64/python_packages/ligprep3/
+
+# counts of output and dropped structures after processing steps
+# index  htreat  desalt  neutra   epik    guard  stereo    cgx   filter  title
+WARNING: entry #1: empty title, assigning generic 'BACE_2.smi:1'.
+       1   1/0     1/0     1/0     2/0     2/0     2/0     2/0     2/0   'BACE_2.smi:1'
+
+# of processed structures in "BACE_2.sd" : 2
+# of dropped structures in "BACE_2-dropped.smi" : 0
+
+backend run time: 0 hours 0 minutes 9.580 seconds

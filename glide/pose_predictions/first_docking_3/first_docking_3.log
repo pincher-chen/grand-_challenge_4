@@ -1,0 +1,104 @@
+
+====================================
+            Glide Script            
+====================================
+
+--------------------------------------------------------------------------------
+JobId          : cn4638-0-5bae3b24
+Name           : first_docking_3
+Program        : Glide
+MMshareExec    : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Host           : cn4638
+Dir            : /WORK/nscc-gz_pinchen/project/schrodinger/first_docking_3
+HostEntry      : ln9-gn0
+Queue          : SLURM2.1
+JobHost        : cn4778
+JobDir         : /tmp/nscc-gz_pinchen/first_docking_3
+JobMMshareExec : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /WORK/commercial_software/Schrodinger/2018-2-1/glide first_docking_3.in -OVERWRITE -NJOBS 20 -HOST ln9-gn0 -PROJ /tmp/nscc-gz_pinchen/tproj35935a29900 -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-09-28-22:31:05
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: first_docking_3.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 37
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  ln9-gn0 (Max: 500)
+Number of jobs:       20
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: True
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+ C  A  W | Activity  JobId  JobName  JobHost
+-- -- -- | --------- -----------------------
+ 0  1 19 | launched  cn4778-0-5bae3b52 first_docking_3-0001 localhost [cn4778]
+ 0  2 18 | launched  cn4778-0-5bae3b58 first_docking_3-0002 ln9-gn0
+ 0  3 17 | launched  cn4778-0-5bae3b5f first_docking_3-0003 ln9-gn0
+ 0  4 16 | launched  cn4778-0-5bae3b64 first_docking_3-0004 ln9-gn0
+ 0  5 15 | launched  cn4778-0-5bae3b6a first_docking_3-0005 ln9-gn0
+ 0  6 14 | launched  cn4778-0-5bae3b70 first_docking_3-0006 ln9-gn0
+ 0  7 13 | launched  cn4778-0-5bae3b75 first_docking_3-0007 ln9-gn0
+ 0  8 12 | launched  cn4778-0-5bae3b7a first_docking_3-0008 ln9-gn0
+ 0  9 11 | launched  cn4778-0-5bae3b7f first_docking_3-0009 ln9-gn0
+ 0 10 10 | launched  cn4778-0-5bae3b84 first_docking_3-0010 ln9-gn0
+ 0 11  9 | launched  cn4778-0-5bae3b8a first_docking_3-0011 ln9-gn0
+ 0 12  8 | launched  cn4778-0-5bae3b8f first_docking_3-0012 ln9-gn0
+ 0 13  7 | launched  cn4778-0-5bae3b94 first_docking_3-0013 ln9-gn0
+ 0 14  6 | launched  cn4778-0-5bae3b9a first_docking_3-0014 ln9-gn0
+ 0 15  5 | launched  cn4778-0-5bae3ba0 first_docking_3-0015 ln9-gn0
+ 1 14  5 | finished  cn4778-0-5bae3b52 first_docking_3-0001 localhost [cn4778]
+ 1 15  4 | launched  cn4778-0-5bae3ba6 first_docking_3-0016 localhost [cn4778]
+ 1 16  3 | launched  cn4778-0-5bae3bab first_docking_3-0017 ln9-gn0
+ 1 17  2 | launched  cn4778-0-5bae3bb0 first_docking_3-0018 ln9-gn0
+ 1 18  1 | launched  cn4778-0-5bae3bb5 first_docking_3-0019 ln9-gn0
+ 1 19  0 | launched  cn4778-0-5bae3bba first_docking_3-0020 ln9-gn0
+ 2 18  0 | finished  cn4778-0-5bae3b58 first_docking_3-0002 ln9-gn0
+ 3 17  0 | finished  cn4778-0-5bae3b5f first_docking_3-0003 ln9-gn0
+ 4 16  0 | finished  cn4778-0-5bae3b64 first_docking_3-0004 ln9-gn0
+ 5 15  0 | finished  cn4778-0-5bae3b75 first_docking_3-0007 ln9-gn0
+ 6 14  0 | finished  cn4778-0-5bae3b7a first_docking_3-0008 ln9-gn0
+ 7 13  0 | finished  cn4778-0-5bae3b7f first_docking_3-0009 ln9-gn0
+ 8 12  0 | finished  cn4778-0-5bae3b84 first_docking_3-0010 ln9-gn0
+ 9 11  0 | finished  cn4778-0-5bae3b8a first_docking_3-0011 ln9-gn0
+10 10  0 | finished  cn4778-0-5bae3b70 first_docking_3-0006 ln9-gn0
+11  9  0 | finished  cn4778-0-5bae3b6a first_docking_3-0005 ln9-gn0
+12  8  0 | finished  cn4778-0-5bae3b8f first_docking_3-0012 ln9-gn0
+13  7  0 | finished  cn4778-0-5bae3bb0 first_docking_3-0018 ln9-gn0
+14  6  0 | finished  cn4778-0-5bae3ba6 first_docking_3-0016 localhost [cn4778]
+15  5  0 | finished  cn4778-0-5bae3b94 first_docking_3-0013 ln9-gn0 [cn4799]
+16  4  0 | finished  cn4778-0-5bae3bab first_docking_3-0017 ln9-gn0 [cn4758]
+17  3  0 | finished  cn4778-0-5bae3bb5 first_docking_3-0019 ln9-gn0 [cn4795]
+18  2  0 | finished  cn4778-0-5bae3ba0 first_docking_3-0015 ln9-gn0 [cn4794]
+19  1  0 | finished  cn4778-0-5bae3b9a first_docking_3-0014 ln9-gn0 [cn4785]
+20  0  0 | finished  cn4778-0-5bae3bba first_docking_3-0020 ln9-gn0 [cn4784]
+
+All jobs have completed.
+
+20 of 20 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 37 ligands done.
+Writing poses to first_docking_3_lib.sdfgz
+Combining log files to first_docking_3_subjobs.log
+Archiving subjob pose files in first_docking_3_subjob_poses.zip
+Archiving subjob input and log files in first_docking_3_subjobs.tar.gz
+Cleaning up...
+
+All Glide docking subjobs: Total CPU time = 847 seconds (14 min 7 s)
+
+Finished at: Fri Sep 28 22:34:40 2018
+Total elapsed time for Glide script = 184 seconds (3 min 4 s)

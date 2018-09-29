@@ -1,0 +1,56 @@
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : cn4638-0-5ba9d9fc
+Name           : base1a_gride_6
+Program        : Glide
+MMshareExec    : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Host           : cn4638
+Dir            : /WORK/nscc-gz_pinchen/project/schrodinger/base1a_gride_6
+HostEntry      : localhost
+JobHost        : cn4638
+JobDir         : /tmp/nscc-gz_pinchen/base1a_gride_6
+JobMMshareExec : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /WORK/commercial_software/Schrodinger/2018-2-1/glide base1a_gride_6.in -OVERWRITE -HOST localhost -PROJ /tmp/nscc-gz_pinchen/tproj06348a15201 -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-09-25-14:47:24
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+GLIDE WARNING: No pattern matches protein atom 6102; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6103; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6104; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6105; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6106; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6107; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6108; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6109; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6110; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6111; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6112; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6113; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6114; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6115; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6116; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6117; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6118; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6119; assigning "polar non-Hbonding" atomtype.
+GLIDE WARNING: No pattern matches protein atom 6120; assigning "polar non-Hbonding" atomtype.
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           40 , 
+          40 ,           40 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (         104 ,          104 , 
+         104 ).
+Creating output grid archive '/WORK/nscc-gz_pinchen/project/grand_challenge/bace1a/base1a_gride_6.zip'
+
+Exiting Glide
+Date: Tuesday, September 25 2018, at 14:49:51 CST
+CPU time (s): 137.9 user, 0.9 system, 141.9 real
+Total elapsed time = 142 seconds (2 minutes, 22 seconds)
+[running at reduced cpu priority]

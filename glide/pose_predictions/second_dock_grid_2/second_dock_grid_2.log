@@ -1,0 +1,37 @@
+Glide version 79013 (mmshare version 42013)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : cn4638-0-5bae36b5
+Name           : second_dock_grid_2
+Program        : Glide
+MMshareExec    : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Host           : cn4638
+Dir            : /WORK/nscc-gz_pinchen/project/schrodinger/second_dock_grid_2
+HostEntry      : localhost
+JobHost        : cn4638
+JobDir         : /tmp/nscc-gz_pinchen/second_dock_grid_2
+JobMMshareExec : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /WORK/commercial_software/Schrodinger/2018-2-1/glide second_dock_grid_2.in -OVERWRITE -HOST localhost -PROJ /tmp/nscc-gz_pinchen/tproj35935a29900 -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-09-28-22:12:06
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           30 , 
+          30 ,           30 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+Creating output grid archive 'second_dock_grid_2.zip'
+
+Exiting Glide
+Date: Friday, September 28 2018, at 22:13:19 CST
+CPU time (s): 64.6 user, 0.4 system, 66.2 real
+Total elapsed time = 66 seconds (1 minutes, 6 seconds)
+[running at reduced cpu priority]
