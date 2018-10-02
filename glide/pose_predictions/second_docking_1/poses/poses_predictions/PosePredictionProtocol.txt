@@ -1,24 +1,24 @@
 #Your informal, brief name for the protocol
-Pin Chen. Sun Yat-sen University
-#
+Name: Pin Chen
+##################################
 #A list of the major software packages and their versions used for system preparation and pose prediction
-glide software (2018-2) for docking,sitemap tools for binding sites predicting.
-#
+Software: Schrodinger (glide tools) software (2018-2 version) for docking,sitemap tools for binding sites predicting.
+##################################
 #List of key parameters used for system preparation
-5YGX.pdb from PDB website.
-The ligand 3D structure based on SMILES strings Here, ligprep tool in Schrodinger suites is used to obtain sd format file. 
-#
+System Preparation Parameters: 5YGX.pdb, 3 dimensions structure of ligand.
+##################################
 #Plain-text description of system preparation method
-5YGX.pdb from PDB website.
-The ligand 3D structure based on SMILES strings Here, ligprep tool in Schrodinger suites is used to obtain sd format file.
-
+System Preparation Method: 5YGX.pdb from PDB website.The ligand only gives the SMILES strings, ligprep tool in Schrodinger suites is used to obtain sd format file.
+#################################
 #List of key parameters used for pose prediction
-sitemap tools
-docking twice,glide
+Pose Prediction Parameters: sitemap tools,docking twice,glide tools
+################################
 #Plain-text description of pose prediction method
-It should be noted the docking box size, for one cocrytal ligand exited in 5YGX, but the size of this ligand is smaller than the docking ligands. Besides, the docking ligands are more complecated with many branched chains and aromatic rings. It will be better to use Sitemap tool to check the docking sites in the protein of 5YGX. 
+Pose Prediction Method: It should be noted the docking box size, for one cocrytal ligand exited in 5YGX, but the size of this ligand is smaller than the docking ligands. Besides, the docking ligands are more complecated with many branched chains and aromatic rings. It will be better to use Sitemap tool to check the docking sites in the protein of 5YGX. 
+The docking site is not clearly in this case, firstly, using larger docking sites based on cocrytal ligand. After first docking, we found the docking site is clearly by viewing docking poses, and then we use more precisionly scoring to get dcking poses and poses ranking.
 1).docking site with (18.94, 40.55, -6.39) extended by box with 30A, scoring function with low precision (SP-standard precision) 
 2).docking site with (25.86, 46.35, -10.64) extended by box with 20A, scoring function with high precision (XP-extra precison)
-
+################################
 #Yes/no answers to questions pertaining to use of ligand similarity, visual inspection, or manual adjustment of results
-no
+Answer 1:no
+Answer 2:no
