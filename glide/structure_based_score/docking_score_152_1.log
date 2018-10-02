@@ -1,0 +1,100 @@
+
+====================================
+            Glide Script            
+====================================
+
+--------------------------------------------------------------------------------
+JobId          : cn4618-0-5baf7d40
+Name           : docking_score_152_1
+Program        : Glide
+MMshareExec    : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Host           : cn4618
+Dir            : /WORK/nscc-gz_pinchen/project/schrodinger/docking_score_152_1
+HostEntry      : ln9-gn0
+Queue          : SLURM2.1
+JobHost        : cn4776
+JobDir         : /tmp/nscc-gz_pinchen/docking_score_152_1
+JobMMshareExec : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /WORK/commercial_software/Schrodinger/2018-2-1/glide docking_score_152_1.in -OVERWRITE -NJOBS 18 -HOST ln9-gn0 -PROJ /tmp/nscc-gz_pinchen/tproj47996a24320 -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-09-29-21:25:35
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: docking_score_152_1.in
+
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 311
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  ln9-gn0 (Max: 500)
+Number of jobs:       18
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: True
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+ C  A  W | Activity  JobId  JobName  JobHost
+-- -- -- | --------- -----------------------
+ 0  1 17 | launched  cn4776-0-5baf7d7a docking_score_152_1-0001 localhost [cn4776]
+ 0  2 16 | launched  cn4776-0-5baf7d80 docking_score_152_1-0002 ln9-gn0
+ 0  3 15 | launched  cn4776-0-5baf7d88 docking_score_152_1-0003 ln9-gn0
+ 0  4 14 | launched  cn4776-0-5baf7d8f docking_score_152_1-0004 ln9-gn0
+ 0  5 13 | launched  cn4776-0-5baf7d99 docking_score_152_1-0005 ln9-gn0
+ 0  6 12 | launched  cn4776-0-5baf7da0 docking_score_152_1-0006 ln9-gn0
+ 0  7 11 | launched  cn4776-0-5baf7da9 docking_score_152_1-0007 ln9-gn0
+ 0  8 10 | launched  cn4776-0-5baf7db0 docking_score_152_1-0008 ln9-gn0
+ 0  9  9 | launched  cn4776-0-5baf7db6 docking_score_152_1-0009 ln9-gn0
+ 0 10  8 | launched  cn4776-0-5baf7dbb docking_score_152_1-0010 ln9-gn0
+ 0 11  7 | launched  cn4776-0-5baf7dc1 docking_score_152_1-0011 ln9-gn0
+ 0 12  6 | launched  cn4776-0-5baf7dc9 docking_score_152_1-0012 ln9-gn0
+ 0 13  5 | launched  cn4776-0-5baf7dce docking_score_152_1-0013 ln9-gn0
+ 0 14  4 | launched  cn4776-0-5baf7dd5 docking_score_152_1-0014 ln9-gn0
+ 0 15  3 | launched  cn4776-0-5baf7ddc docking_score_152_1-0015 ln9-gn0
+ 0 16  2 | launched  cn4776-0-5baf7de3 docking_score_152_1-0016 ln9-gn0
+ 0 17  1 | launched  cn4776-0-5baf7dea docking_score_152_1-0017 ln9-gn0
+ 0 18  0 | launched  cn4776-0-5baf7def docking_score_152_1-0018 ln9-gn0
+ 1 17  0 | finished  cn4776-0-5baf7dc1 docking_score_152_1-0011 ln9-gn0 [cn4743]
+ 2 16  0 | finished  cn4776-0-5baf7dce docking_score_152_1-0013 ln9-gn0 [cn4745]
+ 3 15  0 | finished  cn4776-0-5baf7dc9 docking_score_152_1-0012 ln9-gn0 [cn4744]
+ 4 14  0 | finished  cn4776-0-5baf7da0 docking_score_152_1-0006 ln9-gn0 [cn4787]
+ 5 13  0 | finished  cn4776-0-5baf7d99 docking_score_152_1-0005 ln9-gn0 [cn4786]
+ 6 12  0 | finished  cn4776-0-5baf7dd5 docking_score_152_1-0014 ln9-gn0 [cn4802]
+ 7 11  0 | finished  cn4776-0-5baf7dea docking_score_152_1-0017 ln9-gn0 [cn4805]
+ 8 10  0 | finished  cn4776-0-5baf7ddc docking_score_152_1-0015 ln9-gn0 [cn4803]
+ 9  9  0 | finished  cn4776-0-5baf7db6 docking_score_152_1-0009 ln9-gn0 [cn4741]
+10  8  0 | finished  cn4776-0-5baf7da9 docking_score_152_1-0007 ln9-gn0 [cn4788]
+11  7  0 | finished  cn4776-0-5baf7d7a docking_score_152_1-0001 localhost [cn4776]
+12  6  0 | finished  cn4776-0-5baf7d8f docking_score_152_1-0004 ln9-gn0 [cn4856]
+13  5  0 | finished  cn4776-0-5baf7dbb docking_score_152_1-0010 ln9-gn0 [cn4742]
+14  4  0 | finished  cn4776-0-5baf7d80 docking_score_152_1-0002 ln9-gn0 [cn4854]
+15  3  0 | finished  cn4776-0-5baf7db0 docking_score_152_1-0008 ln9-gn0 [cn4789]
+16  2  0 | finished  cn4776-0-5baf7d88 docking_score_152_1-0003 ln9-gn0 [cn4855]
+17  1  0 | finished  cn4776-0-5baf7de3 docking_score_152_1-0016 ln9-gn0 [cn4804]
+18  0  0 | finished  cn4776-0-5baf7def docking_score_152_1-0018 ln9-gn0 [cn4806]
+
+All jobs have completed.
+
+18 of 18 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 311 ligands done.
+Writing poses to docking_score_152_1_lib.sdfgz
+Combining log files to docking_score_152_1_subjobs.log
+Archiving subjob pose files in docking_score_152_1_subjob_poses.zip
+Archiving subjob input and log files in docking_score_152_1_subjobs.tar.gz
+Cleaning up...
+
+All Glide docking subjobs: Total CPU time = 48014 seconds (13 h 20 min 14 s)
+
+Finished at: Sat Sep 29 22:33:19 2018
+Total elapsed time for Glide script = 4045 seconds (1 h 7 min 25 s)

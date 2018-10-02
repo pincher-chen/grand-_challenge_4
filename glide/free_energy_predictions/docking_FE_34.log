@@ -1,0 +1,136 @@
+
+====================================
+            Glide Script            
+====================================
+
+--------------------------------------------------------------------------------
+JobId          : cn4618-0-5bb04abb
+Name           : docking_FE_34
+Program        : Glide
+MMshareExec    : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Host           : cn4618
+Dir            : /WORK/nscc-gz_pinchen/project/schrodinger/docking_FE_34
+HostEntry      : localhost
+JobHost        : cn4618
+JobDir         : /tmp/nscc-gz_pinchen/docking_FE_34
+JobMMshareExec : /WORK/commercial_software/Schrodinger/2018-2-1/mmshare-v4.2/bin/Linux-x86_64
+Commandline    : /WORK/commercial_software/Schrodinger/2018-2-1/glide docking_FE_34.in -OVERWRITE -adjust -HOST localhost:24 -PROJ /tmp/nscc-gz_pinchen/tproj47996a24320 -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2018-09-30-12:02:06
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: docking_FE_34.in
+
+Setting up docking job
+Separating ligands...
+[running at reduced cpu priority]
+Number of structures that are to be docked: 72
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 24)
+Number of jobs:       36
+Max retries per job:  2
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+ C  A  W | Activity  JobId  JobName  JobHost
+-- -- -- | --------- -----------------------
+ 0  1 35 | launched  cn4618-0-5bb04ad5 docking_FE_34-0001 localhost [cn4618]
+ 0  2 34 | launched  cn4618-0-5bb04ade docking_FE_34-0002 localhost [cn4618]
+ 0  3 33 | launched  cn4618-0-5bb04ae9 docking_FE_34-0003 localhost [cn4618]
+ 0  4 32 | launched  cn4618-0-5bb04af7 docking_FE_34-0004 localhost [cn4618]
+ 0  5 31 | launched  cn4618-0-5bb04b01 docking_FE_34-0005 localhost [cn4618]
+ 0  6 30 | launched  cn4618-0-5bb04b0f docking_FE_34-0006 localhost [cn4618]
+ 0  7 29 | launched  cn4618-0-5bb04b19 docking_FE_34-0007 localhost [cn4618]
+ 0  8 28 | launched  cn4618-0-5bb04b28 docking_FE_34-0008 localhost [cn4618]
+ 0  9 27 | launched  cn4618-0-5bb04b33 docking_FE_34-0009 localhost [cn4618]
+ 0 10 26 | launched  cn4618-0-5bb04b3f docking_FE_34-0010 localhost [cn4618]
+ 0 11 25 | launched  cn4618-0-5bb04b47 docking_FE_34-0011 localhost [cn4618]
+ 0 12 24 | launched  cn4618-0-5bb04b59 docking_FE_34-0012 localhost [cn4618]
+ 0 13 23 | launched  cn4618-0-5bb04b64 docking_FE_34-0013 localhost [cn4618]
+ 0 14 22 | launched  cn4618-0-5bb04b6b docking_FE_34-0014 localhost [cn4618]
+ 0 15 21 | launched  cn4618-0-5bb04b78 docking_FE_34-0015 localhost [cn4618]
+ 0 16 20 | launched  cn4618-0-5bb04b82 docking_FE_34-0016 localhost [cn4618]
+ 0 17 19 | launched  cn4618-0-5bb04b90 docking_FE_34-0017 localhost [cn4618]
+ 0 18 18 | launched  cn4618-0-5bb04b9e docking_FE_34-0018 localhost [cn4618]
+ 0 19 17 | launched  cn4618-0-5bb04bb0 docking_FE_34-0019 localhost [cn4618]
+ 0 20 16 | launched  cn4618-0-5bb04bc5 docking_FE_34-0020 localhost [cn4618]
+ 0 21 15 | launched  cn4618-0-5bb04bd5 docking_FE_34-0021 localhost [cn4618]
+ 0 22 14 | launched  cn4618-0-5bb04be4 docking_FE_34-0022 localhost [cn4618]
+ 0 23 13 | launched  cn4618-0-5bb04c00 docking_FE_34-0023 localhost [cn4618]
+ 0 24 12 | launched  cn4618-0-5bb04c0a docking_FE_34-0024 localhost [cn4618]
+ 1 23 12 | finished  cn4618-0-5bb04ad5 docking_FE_34-0001 localhost [cn4618]
+ 1 24 11 | launched  cn4618-0-5bb04c27 docking_FE_34-0025 localhost [cn4618]
+ 2 23 11 | finished  cn4618-0-5bb04b01 docking_FE_34-0005 localhost [cn4618]
+ 2 24 10 | launched  cn4618-0-5bb04c3c docking_FE_34-0026 localhost [cn4618]
+ 3 23 10 | finished  cn4618-0-5bb04b0f docking_FE_34-0006 localhost [cn4618]
+ 3 24  9 | launched  cn4618-0-5bb04c5a docking_FE_34-0027 localhost [cn4618]
+ 4 23  9 | finished  cn4618-0-5bb04af7 docking_FE_34-0004 localhost [cn4618]
+ 4 24  8 | launched  cn4618-0-5bb04c74 docking_FE_34-0028 localhost [cn4618]
+ 5 23  8 | finished  cn4618-0-5bb04b19 docking_FE_34-0007 localhost [cn4618]
+ 5 24  7 | launched  cn4618-0-5bb04c86 docking_FE_34-0029 localhost [cn4618]
+ 6 23  7 | finished  cn4618-0-5bb04ae9 docking_FE_34-0003 localhost [cn4618]
+ 6 24  6 | launched  cn4618-0-5bb04cac docking_FE_34-0030 localhost [cn4618]
+ 7 23  6 | finished  cn4618-0-5bb04b28 docking_FE_34-0008 localhost [cn4618]
+ 7 24  5 | launched  cn4618-0-5bb04ce2 docking_FE_34-0031 localhost [cn4618]
+ 8 23  5 | finished  cn4618-0-5bb04b47 docking_FE_34-0011 localhost [cn4618]
+ 8 24  4 | launched  cn4618-0-5bb04cfb docking_FE_34-0032 localhost [cn4618]
+ 9 23  4 | finished  cn4618-0-5bb04b59 docking_FE_34-0012 localhost [cn4618]
+ 9 24  3 | launched  cn4618-0-5bb04d12 docking_FE_34-0033 localhost [cn4618]
+10 23  3 | finished  cn4618-0-5bb04b6b docking_FE_34-0014 localhost [cn4618]
+10 24  2 | launched  cn4618-0-5bb04d25 docking_FE_34-0034 localhost [cn4618]
+11 23  2 | finished  cn4618-0-5bb04b82 docking_FE_34-0016 localhost [cn4618]
+11 24  1 | launched  cn4618-0-5bb04d32 docking_FE_34-0035 localhost [cn4618]
+12 23  1 | finished  cn4618-0-5bb04be4 docking_FE_34-0022 localhost [cn4618]
+12 24  0 | launched  cn4618-0-5bb04d40 docking_FE_34-0036 localhost [cn4618]
+13 23  0 | finished  cn4618-0-5bb04ade docking_FE_34-0002 localhost [cn4618]
+14 22  0 | finished  cn4618-0-5bb04b33 docking_FE_34-0009 localhost [cn4618]
+15 21  0 | finished  cn4618-0-5bb04b3f docking_FE_34-0010 localhost [cn4618]
+16 20  0 | finished  cn4618-0-5bb04b64 docking_FE_34-0013 localhost [cn4618]
+17 19  0 | finished  cn4618-0-5bb04b78 docking_FE_34-0015 localhost [cn4618]
+18 18  0 | finished  cn4618-0-5bb04c27 docking_FE_34-0025 localhost [cn4618]
+19 17  0 | finished  cn4618-0-5bb04bd5 docking_FE_34-0021 localhost [cn4618]
+20 16  0 | finished  cn4618-0-5bb04c00 docking_FE_34-0023 localhost [cn4618]
+21 15  0 | finished  cn4618-0-5bb04c0a docking_FE_34-0024 localhost [cn4618]
+22 14  0 | finished  cn4618-0-5bb04b90 docking_FE_34-0017 localhost [cn4618]
+23 13  0 | finished  cn4618-0-5bb04c74 docking_FE_34-0028 localhost [cn4618]
+24 12  0 | finished  cn4618-0-5bb04bc5 docking_FE_34-0020 localhost [cn4618]
+25 11  0 | finished  cn4618-0-5bb04bb0 docking_FE_34-0019 localhost [cn4618]
+26 10  0 | finished  cn4618-0-5bb04b9e docking_FE_34-0018 localhost [cn4618]
+27  9  0 | finished  cn4618-0-5bb04c3c docking_FE_34-0026 localhost [cn4618]
+28  8  0 | finished  cn4618-0-5bb04c86 docking_FE_34-0029 localhost [cn4618]
+29  7  0 | finished  cn4618-0-5bb04d25 docking_FE_34-0034 localhost [cn4618]
+30  6  0 | finished  cn4618-0-5bb04c5a docking_FE_34-0027 localhost [cn4618]
+31  5  0 | finished  cn4618-0-5bb04cac docking_FE_34-0030 localhost [cn4618]
+32  4  0 | finished  cn4618-0-5bb04cfb docking_FE_34-0032 localhost [cn4618]
+33  3  0 | finished  cn4618-0-5bb04d12 docking_FE_34-0033 localhost [cn4618]
+34  2  0 | finished  cn4618-0-5bb04ce2 docking_FE_34-0031 localhost [cn4618]
+35  1  0 | finished  cn4618-0-5bb04d40 docking_FE_34-0036 localhost [cn4618]
+36  0  0 | finished  cn4618-0-5bb04d32 docking_FE_34-0035 localhost [cn4618]
+
+All jobs have completed.
+
+36 of 36 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 72 ligands done.
+Writing poses to docking_FE_34_lib.sdfgz
+Combining log files to docking_FE_34_subjobs.log
+Archiving subjob pose files in docking_FE_34_subjob_poses.zip
+Archiving subjob input and log files in docking_FE_34_subjobs.tar.gz
+Cleaning up...
+
+All Glide docking subjobs: Total CPU time = 14645 seconds (4 h 4 min 5 s)
+
+Finished at: Sun Sep 30 12:28:36 2018
+Total elapsed time for Glide script = 1585 seconds (26 min 25 s)

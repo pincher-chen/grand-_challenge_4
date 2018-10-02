@@ -1,0 +1,7 @@
+Name: Pin Chen
+Software: Schrodinger (2018-2)
+Parameters: docking, glide, XP-extra precison scoring function
+Method: Following the pose prediction process, structure-based method is used to obtain the final score. Here, we use the same grid file used in pose prediction step by docking site with (25.86, 46.35, -10.64) extended by box with 20A, scoring function with high precision (XP-extra precison)
+Answer 1: no
+Answer 2: no
+
