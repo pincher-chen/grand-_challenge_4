@@ -1,0 +1,20 @@
+COMPLEX              10gs_complex.pdb
+PPREP                TRUE
+PPREP_WATERDIST      0.0
+DOCK_PRECISION       SP
+GRIDGEN_GRID_CENTER  SELF
+NATIVEONLY           TRUE
+GOOD_RMSD	2.0
+#COMPRESS_POSES  TRUE
+#POSES_PER_LIG   10
+#POSE_OUTTYPE   ligandlib
+#     LIG_CCUT        0.15
+#     CV_CUTOFF       0.0
+#     POSES_PER_LIG   1
+#     AMIDE_MODE      penal
+#     PRECISION       SP
+#     DOCKING_METHOD  confgen
+#     WRITE_XP_DESC   FALSE
+#     COMPRESS_POSES  TRUE
+#     POSE_OUTTYPE    ligandlib
+

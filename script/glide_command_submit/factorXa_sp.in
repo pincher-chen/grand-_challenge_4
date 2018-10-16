@@ -1,0 +1,5 @@
+WRITE_RES_INTERACTION YES
+USECOMPMAE YES
+GRIDFILE "./factorXa_grid.zip"
+LIGANDFILE "./50ligs_epik.mae.gz"
+

@@ -1,0 +1,207 @@
+========================================
+Job Info...
+
+Name           : glide2
+JobId          : ln0-0-5bbc7983
+HostEntry      : localhost
+Host           : ln0
+JobHost        : ln0
+Dir            : /WORK/nscc-gz_pinchen/project/pdbbind/refined-set/10gs/glide
+JobDir         : /tmp/nscc-gz_pinchen/glide2
+LaunchTime     : 2018-10-09-17:48:51
+StartTime      : 2018-10-09-17:48:53
+========================================
+
+======================================================================
+                                XGlide                                
+           Copyright Schrodinger, LLC. All rights reserved.           
+======================================================================
+
+XGlide starting at Tue Oct  9 17:48:58 2018
+
+
+------------
+ Parameters 
+------------
+Input structures
+    Complexes:
+        10gs_complex.pdb
+Align structures:                       False
+Max. ligand atoms:                      90
+Min. ligand atoms:                      12
+Exclude ions:                           True
+Exclude amino acids:                    False
+Run protein preparation:                True
+    Cap termini:                        False
+    Keep waters:                        False
+    'Far' water distance:               0.0
+    Treat metals:                       True
+    Fix bonds:                          True
+    Apply hydrogen treatment:           True
+    Run impref:                         True 
+        Impref RMSD cutoff:             0.3
+    Generate states with Epik:          True
+    Run protassign:                     True
+        Exhaustive protassign sampling: False
+        Protassign water sampling:      True
+Run LigPrep:                            False
+Use SiteMap for grid centers:           False
+Glide Grid Generation
+    Grid center specification:          SELF
+    Grid size specification:            AUTO
+    Grid size buffer:                   0.0
+    RECEP_VSCALE                        1.0
+    RECEP_CCUT                          0.25
+    INNERBOX                            10
+Glide Docking
+    LIG_VSCALE                          0.8
+    LIG_CCUT                            0.15
+    CV_CUTOFF                           0.0
+    POSES_PER_LIG                       10
+    AMIDE_MODE                          penal
+    PRECISION                           SP
+    DOCKING_METHOD                      confgen
+    WRITE_XP_DESC                       FALSE
+    COMPRESS_POSES                      TRUE
+    POSE_OUTTYPE                        ligandlib
+Number of ligand subsets:               1
+Native docking only:                    True
+Cutoff for a 'good' RMSD:               2.0
+Merge subset docking results:           True
+Run with increased verbosity:           False
+
+
+---------------------
+ Protein Preparation 
+---------------------
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  ln0-0-5bbc7995 glide2__10gs_complex__convert localhost [ln0]
+1 0 0 | finished  ln0-0-5bbc7995 glide2__10gs_complex__convert localhost [ln0]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+
+Splitting complexes...
+    Extracted ligand 'A:UNK1,A:UNK2 (mol.num 3, 59 atoms)' from '10gs_complex'
+
+
+-----------------------
+ Glide Grid Generation 
+-----------------------
+
+
+Determining the center(s) for each grid from the
+associated ligand or SiteMap site(s).
+Grid center X,Y,Z = (    9.828272,    6.623741,   27.759525) for '10gs_complex'
+
+
+Determining the grid size from the sizes of ligands in reference frame...
+Grid size = (25.9, 25.9, 25.9)
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  ln0-0-5bbc7ab9 glide2__10gs_complex__grid localhost [ln0]
+1 0 0 | finished  ln0-0-5bbc7ab9 glide2__10gs_complex__grid localhost [ln0]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+
+----------------------
+ Glide Ligand Docking 
+----------------------
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  0
+Max allowed failures: unlimited
+Run with -LOCAL:      False
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  ln0-0-5bbc7b19 glide2__10gs_complex__10gs_complex__dock localhost [ln0]
+1 0 0 | finished  ln0-0-5bbc7b19 glide2__10gs_complex__10gs_complex__dock localhost [ln0]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+
+--------------
+ RMSD Results 
+--------------
+
+Receptor                 Ligand [file (index,title)]           RMSD   GScore
+--------------------------------------------------------------------------------
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   2.08    -8.96*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   2.23    -8.57*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   2.36    -8.57*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   0.51    -8.49*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   0.83    -8.48*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   1.11    -8.18*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   1.39    -7.90*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   3.13    -7.13*
+10gs_complex             10gs_complex (1, '10gs_complex ligand')   4.15    -6.71*
+
+Summary results...
+
+Receptor                  Scal     %Docked  %RefDocked      AveRMS %RefCorrect
+-------------------------------------------------------------------------------
+10gs_complex               0.8      100.00      100.00        1.98      100.00
+
+
+Subjob log files combined into archive 'glide2_subjob-logs.tar.gz'.
+
+
+XGlide terminating normally at Tue Oct  9 17:56:28 2018
+
